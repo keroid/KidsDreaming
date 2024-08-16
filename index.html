@@ -2,12 +2,18 @@
 <html lang = "zh-CN">
 <head>
     <meta charset = "UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>KidsDreaming</title>
     <link rel = "stylesheet" href = "./static/style.css">
     <link rel = "icon" href = "./static/favicon.ico">
 </head>
 <body>
+    <div id = "templateContainer"></div>
+    <script>
+        $('#templateContainer').load('base.html');
+    </script>
     <div id = "kid-avatar">
         <img src = "./static/avatar.png" alt = "avatar">
         <p>Keroid</p>
@@ -32,15 +38,15 @@
     <ul class = "slidding-box">
         <li>
             <a href = "./Hilt/Hilt.html">刀柄</a>
-            <img src="https://s21.ax1x.com/2024/08/15/pA9LJzV.md.jpg" alt="刀柄">
+            <!-- <img src="https://s21.ax1x.com/2024/08/15/pA9LJzV.md.jpg" alt="刀柄"> -->
         </li>
         <li>
             <p>废城</p>
-            <img src="https://s21.ax1x.com/2024/08/15/pA9L8Gq.jpg" alt="废城">
+            <!-- <img src="https://s21.ax1x.com/2024/08/15/pA9L8Gq.jpg" alt="废城"> -->
         </li>
         <li>
             <p>实验</p>
-            <img src="https://s21.ax1x.com/2024/08/15/pA9LGR0.md.png" alt="实验">
+            <!-- <img src="https://s21.ax1x.com/2024/08/15/pA9LGR0.md.png" alt="实验"> -->
         </li>
     </ul>
 
