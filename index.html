@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang = "zh-CN">
 <head>
-    <meta charset = "UTF-8">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <meta charset = "utf-8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>KidsDreaming</title>
     <link rel = "stylesheet" href = "./static/style.css">
     <link rel = "icon" href = "./static/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 </head>
+
 <body>
-    <div id = "templateContainer"></div>
-    <script>
-        $('#templateContainer').load('base.html');
-    </script>
+
     <div id = "kid-avatar">
-        <img src = "./static/avatar.png" alt = "avatar">
+        <img src = "https://s21.ax1x.com/2024/08/17/pACTV4x.jpg" alt = "avatar">
         <p>Keroid</p>
     </div>
     <div id = "contact-me">
@@ -32,23 +30,34 @@
             </div>
         </div>
     </div>
-    <div id = "background">
-        <img src = "{{url_for('static', filename = 'background.png')}}" alt = "background">
+    <div class = "background">
+        <img src = "https://s21.ax1x.com/2024/08/16/pACtbge.jpg" alt = "background">
     </div>
     <ul class = "slidding-box">
         <li>
             <a href = "./Hilt/Hilt.html">刀柄</a>
-            <img src="https://s21.ax1x.com/2024/08/15/pA9LJzV.md.jpg" alt="刀柄">
+            <img id = "p1" src="https://s21.ax1x.com/2024/08/17/pACH6jU.jpg" alt="刀柄">
         </li>
         <li>
             <p>废城</p>
-            <img src="https://s21.ax1x.com/2024/08/15/pA9L8Gq.jpg" alt="废城">
+            <img id  = "p2" src="https://s21.ax1x.com/2024/08/15/pA9L8Gq.jpg" alt="废城">
         </li>
         <li>
             <p>实验</p>
-            <img src="https://s21.ax1x.com/2024/08/15/pA9LGR0.md.png" alt="实验">
+            <img id = "p3" src="https://s21.ax1x.com/2024/08/17/pACHycT.jpg" alt="实验">
         </li>
     </ul>
+    <div class = "bottom">
+        <div class = "background">
+
+        </div>
+    </div>
+    <script>
+        function devWidth() {
+            return window.innerWidth;
+        }
+    </script>
+
 </body>
 </html>
 
