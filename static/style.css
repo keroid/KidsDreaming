@@ -1,4 +1,4 @@
-/* 基本样式 */
+/* 主页基本样式 */
 
 #kid-avatar img {
     border-radius: 50%;
@@ -30,6 +30,7 @@
     z-index: 0;
 }
 
+
 .slidding-box #p1 {
     top: 30%;
     width: 1670px;
@@ -39,6 +40,7 @@
 .slidding-box #p2 {
     top: 52%;
     object-position: top -640px left 0;
+    transform: rotateY(180deg);
 }
 
 .slidding-box #p3 {
@@ -50,24 +52,53 @@
     position: fixed;
     z-index: 999;
     font-family: "Source Han Sans CN", sans-serif;
-    font-size: 8em;
-    color: azure;
-    opacity: 80%;
+    font-size: 7em;
+    color: rgb(236, 249, 249);
+    opacity: 90%;
     text-decoration: none;
     display: block;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .slidding-box #a1 {
     top: 28%;
+    left: 6%;
 }
 
 .slidding-box #a2 {
     top: 50%;
+    right: 6%;
 }
 
 .slidding-box #a3 {
     top: 72%;
+    left: 6%;
 }
+
+.slidding-box p {
+    position: relative;
+    color: #ffffff77;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 54px;
+    z-index: 1;
+    margin-top: -28px;
+    text-shadow: 1px 1px 3px #000000;
+    opacity: 0.8;
+}
+
+.slidding-box #t1 {
+    top: -20px;
+    left: 200px;
+}
+
+.slidding-box #t2 {
+    right: -20px;
+}
+
+.slidding-box #t3 {
+    left: 200px;
+}
+
 
 .bottom .background {
     background-color: #141724;
@@ -80,6 +111,55 @@
     z-index: -1;
 }
 
+#contact-me {
+    position: fixed;
+    z-index: 999;
+    width: 100px;
+    top: 14%;
+    left: 50%;
+    margin-left: -50px;
+}
+
+
+#contact-me .dropdown .dropbtn {
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#contact-me .dropdown .dropbtn  p{
+    display: block;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+#contact-me .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+#contact-me .dropdown:hover .dropdown-content {
+    margin-top: -60px;
+    display: flex;
+    position: relative;
+    z-index: 999;
+}
+
+#contact-me .dropdown .dropdown-content ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#contact-me .dropdown .dropdown-content ul li{
+    display: inline-block;
+    width: 40px;
+    flex: 3;
+}
+
+/* 补锅 */
 
 
 
@@ -91,7 +171,7 @@
     padding: 15px; /* 15px 内边距 */
     width: 100px; /* 设置特定宽度 */
     text-decoration: none; /* 删除下划线 */
-   font-size: 20px; /* 增加字体大小 */
+    font-size: 20px; /* 增加字体大小 */
     color: white; /* 白色文本颜色 */
     border-radius: 0 5px 5px 0; /* 右上角和右下角的圆角 */
   }
