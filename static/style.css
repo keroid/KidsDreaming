@@ -24,23 +24,60 @@
 .slidding-box img {
     object-fit: cover;
     position: fixed;
+    display: block;
     left: 0;
     height: 22%;
-    width: 1560px;
+    /* width: 1560px; */
+    width: 100%;
     z-index: 0;
 }
 
 
+
+.slidding-box .container {
+    width: 100%;
+    left: 0;
+    position: relative;
+    height: 22%;
+}
+
+
+.slidding-box .container:hover #p1 {
+    transform: translateX(-60%);
+    transition-timing-function: cubic-bezier(0.115, 0.675, 0.255, 1.015);
+}
+
+.slidding-box .container #p1 {
+    transition: 1.5s;
+}
+
+.slidding-box .container:hover #p2 {
+    transform: translateX(50%);
+    transition-timing-function: cubic-bezier(0.115, 0.675, 0.255, 1.015);
+}
+
+.slidding-box .container #p2 {
+    transition: 1.5s;
+}
+
+.slidding-box .container:hover #p3 {
+    transform: translateX(-60%);
+    transition-timing-function: cubic-bezier(0.115, 0.675, 0.255, 1.015);
+}
+
+.slidding-box .container #p3 {
+    transition: 1.5s;
+}
+
 .slidding-box #p1 {
     top: 30%;
-    width: 1670px;
-    object-position: top -930px left -70px;
+    width: 100%;
+    object-position: top -975px left 0;
 }
 
 .slidding-box #p2 {
     top: 52%;
     object-position: top -640px left 0;
-    transform: rotateY(180deg);
 }
 
 .slidding-box #p3 {
@@ -98,7 +135,6 @@
 .slidding-box #t3 {
     left: 200px;
 }
-
 
 .bottom .background {
     background-color: #141724;
