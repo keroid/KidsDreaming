@@ -1,0 +1,41 @@
+
+/* sidenav */
+#sidenav .background {
+    position: absolute; /* 相对于浏览器窗口定位它们 */
+    left: -180px; /* 将它们放在屏幕之外 */
+    top: 0; /* 顶部对齐 */
+    transition: 0.5s; /* 在悬停时添加过渡 */
+    transition-timing-function: cubic-bezier(0.115, 0.675, 0.400, 0.940); /* 过渡效果 */
+    padding: 15px; /* 15px 内边距 */
+    width: 200px; /* 设置特定宽度 */
+    height: 100%; 
+    text-decoration: none; /* 删除下划线 */
+    font-size: 15px; /* 增加字体大小 */
+    color: white; /* 白色文本颜色 */
+    background:linear-gradient(45deg, black, rgb(155, 172, 204));
+}
+
+#sidenav .background:hover {
+    left: 0; /* 鼠标悬停时，使元素按应有的方式显示 */
+}
+
+/* about 链接:距离顶部 20 像素，背景为绿色 */
+#about {
+top: 20px;
+background-color: #4CAF50;
+}
+
+#blog {
+top: 80px;
+background-color: #2196F3; /* Blue */
+}
+
+#projects {
+top: 140px;
+background-color: #f44336; /* Red */
+}
+
+#contact {
+top: 200px;
+background-color: #555 /* 浅黑色 */
+}
