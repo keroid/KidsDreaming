@@ -6,7 +6,7 @@
     width: 150px;
     object-fit: cover;
     position: fixed;
-    z-index: 999;
+    z-index: 998;
     left: 50%;
     top: 20%;
     margin-left: -75px;
@@ -87,7 +87,7 @@
 
 .slidding-box a {
     position: fixed;
-    z-index: 999;
+    z-index: 998;
     font-family: "Source Han Sans CN", sans-serif;
     font-size: 7em;
     color: rgb(236, 249, 249);
@@ -149,7 +149,7 @@
 
 #contact-me {
     position: fixed;
-    z-index: 999;
+    z-index: 998;
     width: 100px;
     top: 14%;
     left: 50%;
@@ -179,7 +179,7 @@
     margin-top: -60px;
     display: flex;
     position: relative;
-    z-index: 999;
+    z-index: 998;
 }
 
 #contact-me .dropdown .dropdown-content ul {
@@ -195,3 +195,11 @@
     flex: 3;
 }
 
+.move{
+    height: 1000px;
+    width: 1000px;
+    background-color: #141724;
+    left: 0%;
+    /* transition: 1s; */
+    z-index: 999;
+}

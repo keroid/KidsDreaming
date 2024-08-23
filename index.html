@@ -59,6 +59,18 @@
         <div class = "background">
         </div>
     </div>
+    <area>
+    </area>
+
+    <script>
+        $(document).ready(function() {
+            $('a').click(function(e) {
+                e.preventDefault();
+                $('area').toggleClass('move');
+                // $('.move').toggleClass('move mask');
+            });
+        });
+    </script>
 </body>
 </html>
 
