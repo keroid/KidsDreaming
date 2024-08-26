@@ -55,6 +55,7 @@ const count = ref(0)
   </RouterView>
   <button><router-link to="/">去文件一</router-link></button>
   <button><router-link to="/file2">去文件二</router-link></button>
+  <button><router-link to="/static">去静态文件</router-link></button>
 </template>
 
 <style scoped></style>
