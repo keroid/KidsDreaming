@@ -1,6 +1,6 @@
 <template>
     <div>
-        这是文件二
+        这是文件一
     </div>
 </template>
 
@@ -10,4 +10,5 @@
 
 <style scoped>
 
+@import '../static/index.css';
 </style>
