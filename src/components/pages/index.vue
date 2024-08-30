@@ -10,9 +10,9 @@
             </div>
             <div class = "dropdown-content">
                 <ul>
-                    <li><a href = "https://weibo.com/u/5533859086"><img src = "../static/icons/weibo.png" border = "0" width = 22px></a></li>
-                    <li><a href = "https://s21.ax1x.com/2024/08/18/pAP9G34.png"><img src = "../static/icons/QQ.png" width = 20px></a></li>
-                    <li><a href = "https://9kidalyu.lofter.com"><img src = "../static/icons/lofter.png" width = 20px></a></li>
+                    <li><a href = "https://weibo.com/u/5533859086"><img src = "/src/static/icons/weibo.png" border = "0" width = 22px></a></li>
+                    <li><a href = "https://s21.ax1x.com/2024/08/18/pAP9G34.png"><img src = "/src/static/icons/QQ.png" width = 20px></a></li>
+                    <li><a href = "https://9kidalyu.lofter.com"><img src = "/src/static/icons/lofter.png" width = 20px></a></li>
                 </ul>
             </div>
         </div>
@@ -56,5 +56,5 @@
 
 <style scoped>
 
-@import '../static/index.css';
+@import '/src/static/index.css';
 </style>

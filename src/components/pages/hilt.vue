@@ -6,7 +6,7 @@
 
 <script>
 
-import Sidenav from './sidenavs/hilt.vue';
+import Sidenav from '../sidenavs/hilt.vue';
 export default {
     components: {
         'v-sidenav': Sidenav

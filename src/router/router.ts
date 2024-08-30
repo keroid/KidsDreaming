@@ -1,6 +1,6 @@
 import { createRouter,createWebHistory,createWebHashHistory } from 'vue-router'
-import index from '../components/index.vue'
-import hilt from '../components/hilt.vue'
+import index from '../components/pages/index.vue'
+import hilt from '../components/pages/hilt.vue'
 
 const routes = [
     {

@@ -11,5 +11,5 @@
 </template>
 
 <style scoped>
-@import '../static/page.css';
+@import '/src/static/page.css';
 </style>
