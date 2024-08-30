@@ -1,3 +1,4 @@
+<!-- 根组件 -->
 <script setup>
 </script>
 
@@ -7,7 +8,6 @@
         <component :is="Component" />
     </transition>
   </RouterView>
-  <title>KidsDreaming</title>
 </template>
 
 <style scoped>

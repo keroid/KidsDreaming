@@ -1,10 +1,17 @@
 <template>
-    <div>
-        这是文件一
+    <div id = "hilt_page">
+        <v-sidenav></v-sidenav>
     </div>
 </template>
 
-<script setup lang="ts">
+<script>
+
+import Sidenav from './sidenavs/hilt.vue';
+export default {
+    components: {
+        'v-sidenav': Sidenav
+    }
+}
 
 </script>
 
