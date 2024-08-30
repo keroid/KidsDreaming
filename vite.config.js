@@ -7,7 +7,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default {
   plugins: [vue()],
-  base: '/pagetest/',
+  base: '/docs/',
   build: {
     outDir: 'docs'
   }
